@@ -1,0 +1,872 @@
+<ui version="4.0" >
+ <class>finestraLlums</class>
+ <widget class="QDialog" name="finestraLlums" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy>
+    <hsizetype>5</hsizetype>
+    <vsizetype>5</vsizetype>
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>380</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>380</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>Control de Llums</string>
+  </property>
+  <property name="sizeGripEnabled" >
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item row="1" column="0" colspan="3" >
+    <widget class="QToolBox" name="toolBox1" >
+     <property name="currentIndex" >
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page1" >
+      <property name="geometry" >
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>362</width>
+        <height>389</height>
+       </rect>
+      </property>
+      <attribute name="label" >
+       <string>Paràmetres Bàsics</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox11" >
+       <property name="geometry" >
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>351</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="title" >
+        <string>Posició</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox9" >
+        <property name="geometry" >
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>130</width>
+          <height>130</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Coordenades</string>
+        </property>
+        <widget class="QLabel" name="textLabel1_2" >
+         <property name="geometry" >
+          <rect>
+           <x>20</x>
+           <y>61</y>
+           <width>20</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text" >
+          <string>Y</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="textLabel1_3" >
+         <property name="geometry" >
+          <rect>
+           <x>21</x>
+           <y>91</y>
+           <width>20</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text" >
+          <string>Z</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="textLabel1" >
+         <property name="geometry" >
+          <rect>
+           <x>20</x>
+           <y>31</y>
+           <width>20</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text" >
+          <string>X</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="textField" native="1" name="coorX" >
+         <property name="geometry" >
+          <rect>
+           <x>40</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="textField" native="1" name="coorY" >
+         <property name="geometry" >
+          <rect>
+           <x>40</x>
+           <y>60</y>
+           <width>70</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="textField" native="1" name="coorZ" >
+         <property name="geometry" >
+          <rect>
+           <x>40</x>
+           <y>90</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox12" >
+        <property name="geometry" >
+         <rect>
+          <x>160</x>
+          <y>20</y>
+          <width>181</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Referència</string>
+        </property>
+        <widget class="QComboBox" name="referencia" >
+         <property name="geometry" >
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>141</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text" >
+           <string>Observador</string>
+          </property>
+         </item>
+         <item>
+          <property name="text" >
+           <string>Escena</string>
+          </property>
+         </item>
+         <item>
+          <property name="text" >
+           <string>Vehicle</string>
+          </property>
+         </item>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox10" >
+       <property name="geometry" >
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>351</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="title" >
+        <string>Color</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox7" >
+        <property name="geometry" >
+         <rect>
+          <x>10</x>
+          <y>16</y>
+          <width>160</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Ambient</string>
+        </property>
+        <widget class="boto" native="1" name="botoA" >
+         <property name="geometry" >
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>140</width>
+           <height>51</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox7_4" >
+        <property name="geometry" >
+         <rect>
+          <x>90</x>
+          <y>106</y>
+          <width>160</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Especular</string>
+        </property>
+        <widget class="boto" native="1" name="botoE" >
+         <property name="geometry" >
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>140</width>
+           <height>51</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox7_3" >
+        <property name="geometry" >
+         <rect>
+          <x>180</x>
+          <y>16</y>
+          <width>160</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Difós</string>
+        </property>
+        <widget class="boto" native="1" name="botoD" >
+         <property name="geometry" >
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>140</width>
+           <height>51</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page2" >
+      <property name="geometry" >
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>96</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <attribute name="label" >
+       <string>Llum Spot</string>
+      </attribute>
+      <widget class="QCheckBox" name="spot" >
+       <property name="geometry" >
+        <rect>
+         <x>109</x>
+         <y>2</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text" >
+        <string>Llum Spot?</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxSpot" >
+       <property name="geometry" >
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>370</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <property name="title" >
+        <string>Paràmetres llum spot</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox5" >
+        <property name="enabled" >
+         <bool>true</bool>
+        </property>
+        <property name="geometry" >
+         <rect>
+          <x>179</x>
+          <y>108</y>
+          <width>180</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Exponent</string>
+        </property>
+        <widget class="sliderText" native="1" name="spotExp" >
+         <property name="geometry" >
+          <rect>
+           <x>5</x>
+           <y>18</y>
+           <width>640</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxDirSpot" >
+        <property name="enabled" >
+         <bool>true</bool>
+        </property>
+        <property name="geometry" >
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>150</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Direcció</string>
+        </property>
+        <widget class="QLabel" name="textLabel2_2" >
+         <property name="geometry" >
+          <rect>
+           <x>20</x>
+           <y>61</y>
+           <width>40</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text" >
+          <string>Y:</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="textLabel2_3" >
+         <property name="geometry" >
+          <rect>
+           <x>20</x>
+           <y>98</y>
+           <width>40</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text" >
+          <string>Z:</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="textLabel2" >
+         <property name="geometry" >
+          <rect>
+           <x>20</x>
+           <y>26</y>
+           <width>40</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text" >
+          <string>X:</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="textField" native="1" name="direccioX" >
+         <property name="geometry" >
+          <rect>
+           <x>40</x>
+           <y>30</y>
+           <width>640</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="textField" native="1" name="direccioY" >
+         <property name="geometry" >
+          <rect>
+           <x>40</x>
+           <y>66</y>
+           <width>640</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="textField" native="1" name="direccioZ" >
+         <property name="geometry" >
+          <rect>
+           <x>40</x>
+           <y>101</y>
+           <width>640</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxAngleSpot" >
+        <property name="enabled" >
+         <bool>true</bool>
+        </property>
+        <property name="geometry" >
+         <rect>
+          <x>180</x>
+          <y>38</y>
+          <width>180</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Angle</string>
+        </property>
+        <widget class="sliderText" native="1" name="spotAngle" >
+         <property name="geometry" >
+          <rect>
+           <x>5</x>
+           <y>20</y>
+           <width>640</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxAtenuacioSpot" >
+        <property name="geometry" >
+         <rect>
+          <x>10</x>
+          <y>200</y>
+          <width>350</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="title" >
+         <string>Atenuació</string>
+        </property>
+        <widget class="QComboBox" name="spotAtenuacio" >
+         <property name="geometry" >
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>250</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="font" >
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <item>
+          <property name="text" >
+           <string>GL_CONSTANT_ATTENUATION</string>
+          </property>
+         </item>
+         <item>
+          <property name="text" >
+           <string>GL_LINEAR_ATTENUATION</string>
+          </property>
+         </item>
+         <item>
+          <property name="text" >
+           <string>GL_QUADRATIC_ATTENUATION</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="textField" native="1" name="grau" >
+         <property name="geometry" >
+          <rect>
+           <x>271</x>
+           <y>36</y>
+           <width>640</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item row="0" column="2" >
+    <widget class="QCheckBox" name="activa" >
+     <property name="text" >
+      <string>Activa</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" >
+    <widget class="QPushButton" name="pushButton1" >
+     <property name="text" >
+      <string>Accepta</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" >
+    <widget class="QComboBox" name="idLlum" />
+   </item>
+   <item row="0" column="0" >
+    <widget class="QLabel" name="textLabel4" >
+     <property name="text" >
+      <string>Llum:</string>
+     </property>
+     <property name="wordWrap" >
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <customwidgets>
+  <customwidget>
+   <class>sliderText</class>
+   <extends>QWidget</extends>
+   <header>sliderText.h</header>
+  </customwidget>
+  <customwidget>
+   <class>boto</class>
+   <extends>QWidget</extends>
+   <header>boto.h</header>
+  </customwidget>
+  <customwidget>
+   <class>textField</class>
+   <extends>QWidget</extends>
+   <header>textField.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>activa</tabstop>
+  <tabstop>idLlum</tabstop>
+ </tabstops>
+ <includes>
+  <include location="local" >llum.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>botoE</sender>
+   <signal>released()</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>specularPressed()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>112</x>
+     <y>217</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>referencia</sender>
+   <signal>activated(int)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>puntVista(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>192</x>
+     <y>361</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spotExp</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>exponentSpot(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>direccioZ</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>direccioZSpot(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>direccioY</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>direccioYSpot(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>direccioX</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>direccioXSpot(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>botoD</sender>
+   <signal>released()</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>difusePressed()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>202</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>coorZ</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>coorZChanged(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>62</x>
+     <y>401</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>coorY</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>coorYChanged(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>62</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>coorX</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>coorXChanged(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>62</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spotAngle</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>angleSpot(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spotAtenuacio</sender>
+   <signal>activated(int)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>canviarAtenuacio(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>botoA</sender>
+   <signal>released()</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>ambientPressed()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>32</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spot</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>activarSpot(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>activa</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>activarLlum(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>grau</sender>
+   <signal>valueChanged(float)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>modificarAtenuacio(float)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>idLlum</sender>
+   <signal>activated(int)</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>canviarLlum(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton1</sender>
+   <signal>pressed()</signal>
+   <receiver>finestraLlums</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,899 @@
+<ui version="4.0" >
+ <class>Principal</class>
+ <widget class="QWidget" name="Principal" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy>
+    <hsizetype>0</hsizetype>
+    <vsizetype>0</vsizetype>
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>793</width>
+    <height>581</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>Form1</string>
+  </property>
+  <layout class="QHBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" >
+     <property name="margin" >
+      <number>0</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" >
+       <property name="margin" >
+        <number>0</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="GLWidget" name="gLWidget1" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>7</hsizetype>
+               <vsizetype>7</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize" >
+              <size>
+               <width>550</width>
+               <height>550</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" >
+       <property name="margin" >
+        <number>0</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QTabWidget" name="tabWidget" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>0</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize" >
+            <size>
+             <width>240</width>
+             <height>220</height>
+            </size>
+           </property>
+           <property name="toolTip" >
+            <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal; text-decoration:none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Llum1&lt;/p>&lt;/body>&lt;/html></string>
+           </property>
+           <property name="autoFillBackground" >
+            <bool>true</bool>
+           </property>
+           <property name="tabPosition" >
+            <enum>QTabWidget::North</enum>
+           </property>
+           <property name="currentIndex" >
+            <number>2</number>
+           </property>
+           <property name="iconSize" >
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="usesScrollButtons" >
+            <bool>false</bool>
+           </property>
+           <widget class="QWidget" name="sh" >
+            <attribute name="title" >
+             <string>Brillantor</string>
+            </attribute>
+            <widget class="QSlider" name="horizontalSlider_4" >
+             <property name="geometry" >
+              <rect>
+               <x>20</x>
+               <y>160</y>
+               <width>201</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+            <widget class="QWidget" name="layoutWidget" >
+             <property name="geometry" >
+              <rect>
+               <x>10</x>
+               <y>17</y>
+               <width>211</width>
+               <height>131</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" >
+              <property name="margin" >
+               <number>0</number>
+              </property>
+              <property name="spacing" >
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="Ambient" >
+                <property name="text" >
+                 <string>Ambient</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Difos" >
+                <property name="text" >
+                 <string>Difos</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Especular" >
+                <property name="text" >
+                 <string>Especular</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab" >
+            <attribute name="title" >
+             <string>Llum 0</string>
+            </attribute>
+            <widget class="QCheckBox" name="Llum0On" >
+             <property name="geometry" >
+              <rect>
+               <x>20</x>
+               <y>10</y>
+               <width>141</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="autoFillBackground" >
+              <bool>true</bool>
+             </property>
+             <property name="text" >
+              <string>Enable Llum 0</string>
+             </property>
+             <property name="checkable" >
+              <bool>true</bool>
+             </property>
+             <property name="checked" >
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QWidget" name="layoutWidget_2" >
+             <property name="geometry" >
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>211</width>
+               <height>131</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" >
+              <property name="margin" >
+               <number>0</number>
+              </property>
+              <property name="spacing" >
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="Ambient_2" >
+                <property name="text" >
+                 <string>Ambient</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Difos_2" >
+                <property name="text" >
+                 <string>Difos</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Especular_2" >
+                <property name="text" >
+                 <string>Especular</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_2" >
+            <attribute name="title" >
+             <string>Llum 1</string>
+            </attribute>
+            <widget class="QWidget" name="layoutWidget_3" >
+             <property name="geometry" >
+              <rect>
+               <x>20</x>
+               <y>40</y>
+               <width>211</width>
+               <height>131</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" >
+              <property name="margin" >
+               <number>0</number>
+              </property>
+              <property name="spacing" >
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="Ambient_3" >
+                <property name="text" >
+                 <string>Ambient</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Difos_3" >
+                <property name="text" >
+                 <string>Difos</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Especular_3" >
+                <property name="text" >
+                 <string>Especular</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QCheckBox" name="Llum1On" >
+             <property name="geometry" >
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>141</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="autoFillBackground" >
+              <bool>true</bool>
+             </property>
+             <property name="text" >
+              <string>Enable Llum 1</string>
+             </property>
+             <property name="checkable" >
+              <bool>true</bool>
+             </property>
+             <property name="checked" >
+              <bool>true</bool>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ResetMat" >
+           <property name="text" >
+            <string>Reset Material</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>20</width>
+             <height>21</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="camarainicial" >
+             <property name="text" >
+              <string>Recarrega la càmara inicial</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox" >
+             <property name="text" >
+              <string>Permetre Display List</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="NormVert" >
+             <property name="text" >
+              <string>Activar normalització per vertex</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBoxpeces" >
+             <property name="text" >
+              <string>Activar mode de moviment de peces</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="Culling" >
+             <property name="text" >
+              <string>Permetre BackFace Culling</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" >
+             <property name="margin" >
+              <number>0</number>
+             </property>
+             <property name="spacing" >
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QComboBox" name="comboBox" >
+               <item>
+                <property name="text" >
+                 <string>Rei</string>
+                </property>
+               </item>
+               <item>
+                <property name="text" >
+                 <string>Reina</string>
+                </property>
+               </item>
+               <item>
+                <property name="text" >
+                 <string>Alfil</string>
+                </property>
+               </item>
+               <item>
+                <property name="text" >
+                 <string>Cavall</string>
+                </property>
+               </item>
+               <item>
+                <property name="text" >
+                 <string>Torre</string>
+                </property>
+               </item>
+               <item>
+                <property name="text" >
+                 <string>Peó</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="carregador" >
+               <property name="text" >
+                <string>Carregar objecte</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>171</width>
+                 <height>71</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>11</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType" >
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>101</width>
+             <height>31</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton1" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>0</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize" >
+            <size>
+             <width>75</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text" >
+            <string>&amp;Sortir</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+S</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <customwidgets>
+  <customwidget>
+   <class>GLWidget</class>
+   <extends>QWidget</extends>
+   <header>GLWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <includes>
+  <include location="local" >../widget/GLWidget.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>Principal</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>carregador</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>OpenFile()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>665</x>
+     <y>382</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>338</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>highlighted(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>OpenPiece(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>544</x>
+     <y>366</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>222</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camarainicial</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>Reset()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>544</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>222</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>PermetDisplay()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>544</x>
+     <y>85</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>222</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBoxpeces</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>ActivaSeleccio()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>537</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>214</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Culling</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setCulling()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>671</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>283</x>
+     <y>289</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ResetMat</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>resetPiece()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>688</x>
+     <y>261</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>285</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_4</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setsh(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>680</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>285</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Ambient</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setAmbient()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>731</x>
+     <y>77</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>295</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Difos</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setDifos()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>641</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>296</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Especular</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setEspecular()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>641</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>296</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Llum0On</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>llum0onoff()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>701</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Ambient_2</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setAmbientlight0()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>726</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Difos_2</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setDifoslight0()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>726</x>
+     <y>140</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Especular_2</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setEspecularlight0()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>726</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Ambient_3</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setAmbientlight1()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>736</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Difos_3</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setDifoslight1()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>736</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Especular_3</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>setEspecularlight1()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>736</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Llum1On</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>llum1onoff()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>701</x>
+     <y>77</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>NormVert</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>NormalVertex()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>729</x>
+     <y>424</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>325</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

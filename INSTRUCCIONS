@@ -1,0 +1,9 @@
+ Per carregar:
+
+qmake
+make
+cd app
+./PracticaVIG
+
+La pestanya Brillantor serveix per a modificar les propietats del material de les peces
+Per moure una peça, hem de clickar sobre ella i arrossegar el mouse fins al lloc on volguem posar la peça.
